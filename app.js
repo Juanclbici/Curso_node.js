@@ -1,5 +1,5 @@
-function saludar(nombre){
-    return `Hola, ${nombre}`;
-}
+const saludo = require("./saludo.js");
 
-console.log(saludar("freeCodeCamp"));
+console.log(saludo);
+
+console.log(saludo.saludar("freeCodeCamp"));
