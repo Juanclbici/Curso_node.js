@@ -1,0 +1,15 @@
+{
+  "name": "mi-paquete2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "freeCodeCamp",
+  "license": "ISC",
+  "description": "Mi segundo paquete de Node.js",
+  "dependencies": {
+    "express": "^4.15.1"
+  }
+}
