@@ -11,11 +11,11 @@ app.use('/api/cursos/matematicas', routerMatematicas);
 
 //Routing
 app.get('/', (req, res) => {
-    res.send('Mi primer servidor con Express. Cursos.');
+    res.json('Mi primer servidor con Express. Cursos.');
 });
 
 app.get('/api/cursos', (req, res) => {
-    res.send(JSON.stringify(infoCursos));
+    res.json(infoCursos);
 });
 
 
