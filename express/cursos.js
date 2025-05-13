@@ -17,7 +17,7 @@ let infoCursos = {
         {
             id: 3,
             titulo: 'Aprende JavaScrip',
-            lenguaje: 'JavaScrip',
+            lenguaje: 'JavaScript',
             vistas: 102223,
             nivel: 'basico'
         },
